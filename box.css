@@ -1,0 +1,39 @@
+.one{
+    border: 3px solid rgb(4, 0, 255);
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem
+}
+.two{
+    height: 400px;
+    width: 300px;
+    border: 3px solid rgb(17, 0, 255);
+    border-radius: 5px;
+    
+}
+.last{
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    border: 3px solid rgb(14, 17, 206);
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 2rem;
+}
+.main{
+     margin-left: 100px;
+     margin-top: 80px;
+    display: flex;
+    gap: 70px;
+}

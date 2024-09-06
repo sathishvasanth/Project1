@@ -1,0 +1,53 @@
+.main{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 500px;
+    padding: 60px;
+}
+body{
+    background: rgb(0, 0, 0);
+    background: url(photo/net.jpg);
+   
+}
+.main{
+   color: #fff;
+   font-size: 1rem;
+}
+body::before{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    opacity: 0.5;
+    background: rgb(0, 0, 0);
+    background: url(photo/net.jpg);
+}
+.main form{
+    margin: 25px 0 65px;
+}
+
+.main{
+   position: absolute;
+   left: 30%;
+   top: 20%;
+   padding: 30px;
+   background: rgb(0, 0, 0, 0.75)
+   
+}
+.main form{
+    margin: 25px 0 65px;
+}
+.form.main {
+    height: 50px;
+}
+.main input{
+    height: 100%;
+    width: 100%;
+}
+.main input{
+    height: 100%;
+    width: 100%;
+}
+

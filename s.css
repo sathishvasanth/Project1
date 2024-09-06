@@ -1,0 +1,51 @@
+.menu1{
+    width: 95%;
+    background-color:yellow;
+    border: 10px solid red;
+    overflow: auto;
+    padding: 20px;
+}
+.menu2{
+    width:10vh;
+    background-color:yellow;
+    border: 10px solid red;
+    overflow: auto;
+    padding: 10px;
+    height: 60vh;
+}
+.menu1 a{
+    float: left;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(24, 3, 3);
+    width: 10%;
+}
+.menu2 a{
+    height: 30px;
+    float: right;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(12, 14, 12);
+    width: 30px;
+}
+.menu1  :hover{
+    background-color: rgb(168, 1, 1);
+}
+.menu2  :hover{
+    background-color: rgb(168, 1, 9);
+}
+
+body{
+    background-image: url(photo/vijay\ img.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.first{
+    text-align: center;
+    color:black;
+    margin-top: -40vh;
+}
+.second{
+    margin-left: 40px;
+    margin-right: 40px;
+}

@@ -1,0 +1,30 @@
+.container{
+    border: 10px solid black;
+    padding: 10px;
+}
+
+.first{
+    height: 200px;
+    width: 400px;
+    background-color: brown;
+    border: 30px solid blue;
+    margin-top: 20vh;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    margin-bottom: 20vh;
+
+}
+.second{
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    border: 30px solid goldenrod;
+    margin-top: 20vh;
+    margin-right: 20vh;
+    margin-left: 20vh;
+    margin-bottom: 20vh;
+}
+
+.container{
+    display: flex;
+}

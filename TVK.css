@@ -1,0 +1,68 @@
+body{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.drop{
+    position: fixed;
+    top: 1px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    left: 40px;
+    list-style-type: none;
+}
+.Vijay{
+    list-style-type: none;
+    display: non;
+    position: absolute;
+}
+.Actors li:nth-child(1):hover .Vijay{
+    display: block;
+}
+a{
+    display: block;
+    width: 200px;
+    background-color: black;
+    color: azure;
+    padding: 10px 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+}
+.Actors{
+    list-style-type:none;
+    display: none;
+    position: absolute;
+}
+.drop li:nth-child(1):hover .Actors{
+    display: block;
+}
+.Songs{
+    list-style-type: none;
+    display:none;
+    position: absolute;
+}
+.drop li:nth-child(2):hover .Songs{
+    display: block;
+}
+.Language{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+.drop li:nth-child(3):hover .Language{
+    display: block;
+}
+.Country{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+.drop li:nth-child(4):hover .Country{
+    display: block;
+}
+a:hover{
+    background-color: rgb(233, 22, 14);
+}

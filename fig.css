@@ -1,0 +1,120 @@
+.col2{
+    background-image: url(photo/Right\ Side.png);
+    width: 540px;
+    height: 650px;
+    top: -188px;
+    left: 242px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.h1 h1{
+
+    margin-top: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 51px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.h2 h2{ 
+    
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+.ss{
+   
+top: 24.57px;
+left: -190px;
+gap: 0px;
+border-radius: 16px 16px 16px 16px;
+border: 16px 0px 0px 0px;
+opacity: 0px;
+
+}
+.main{
+    margin-left: 170px;
+}
+.s input{
+    width: 313.97px;
+    height: 41.31px;
+    top: 236.3px;
+    left: -188.97px;
+    gap: 0px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 0px;
+}
+.v input{
+    width: 313.97px;
+height: 41.31px;
+top: 236.3px;
+left: -188.97px;
+gap: 0px;
+border-radius: 12px 12px 12px 12px;
+opacity: 0px;
+}
+
+.rr{
+    width: 308.8px;
+height: 18.59px;
+top: 206.34px;
+left: -183.8px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+}
+.rr button{
+    width: 313.97px;
+height: 41.31px;
+top: 236.3px;
+left: -188.97px;
+gap: 0px;
+border-radius: 12px 12px 12px 12px;
+opacity: 0px;
+background-color: #ea454c;
+
+}
+.bt button{
+    margin-top: 60px;
+    width: 313.97px;
+height: 41.31px;
+top: 288.97px;
+left: -188.97px;
+gap: 0px;
+border-radius: 12px 12px 12px 12px;
+opacity: 0px;
+border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.dd dd{
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}
+.free{
+    font-family: Poppins;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0.03em;
+text-align: center;
+
+}

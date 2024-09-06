@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <link rel="stylesheet" href="Boot.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     </head>
+    <body>
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-4">
+          <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link" href="#item-1">Item 1</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+              </nav>
+              <a class="nav-link" href="#item-2">Item 2</a>
+              <a class="nav-link" href="#item-3">Item 3</a>
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+              </nav>
+            </nav>
+          </nav>
+        </div>
+      
+
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <div id="item-1">
+              <h4>Item 1</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tempora.</p>
+            </div>
+            <div id="item-1-1">
+              <h5>Item 1-1</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad saepe suscipit esse voluptatum tempore tenetur? Rem tempora saepe excepturi quibusdam amet autem laboriosam dolores perspiciatis, consequuntur fuga nemo iusto voluptatibus, dolore odit impedit officia dignissimos illum est laudantium facere vitae sed. Deserunt obcaecati odio quaerat accusantium rem! Ullam, temporibus.</p>
+            </div>
+            <div id="item-1-2">
+              <h5>Item 1-2</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestias blanditiis similique porro culpa ipsum exercitationem delectus, minus ducimus unde laboriosam ipsa et impedit dolorum dignissimos ad nobis quam fugit aliquam. Et voluptatum molestiae iure harum illum aperiam ut fugit?</p>
+            </div>
+            <div id="item-2">
+              <h4>Item 2</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi dolor dolorem odit laudantium cumque, autem fugiat voluptas vitae laborum modi impedit nisi voluptate eos voluptatum atque ad corporis similique pariatur facilis reprehenderit quaerat nam velit. Cumque, dolorum! Ratione praesentium, aperiam illo, unde corrupti nulla ipsa pariatur deleniti provident ut cum.</p>
+            </div>
+            <div id="item-3">
+              <h4>Item 3</h4>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem explicabo neque qui pariatur mollitia voluptas architecto tempora deleniti, quasi recusandae fugit quo, delectus velit dolore harum distinctio fuga assumenda perferendis reiciendis asperiores? Possimus velit itaque culpa reiciendis iusto architecto mollitia.</p>
+            </div>
+            <div id="item-3-1">
+              <h5>Item 3-1</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium enim voluptates esse perspiciatis magni ea nobis culpa in. Rerum, repellendus a. Dicta facere corporis error doloremque, expedita enim dolores blanditiis voluptatem! Magni et recusandae officia, facilis fuga aperiam architecto.</p>
+            </div>
+            <div id="item-3-2">
+              <h5>Item 3-2</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo tenetur sit ipsa rem delectus iure, magnam fuga distinctio repellat hic adipisci sint sequi id, dolorum repudiandae temporibus aut praesentium eveniet sunt dolor soluta assumenda cum saepe. Reiciendis assumenda minima illo?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <center>
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+        Popover on top
+      </button>
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+        Popover on right
+      </button>
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+        Popover on bottom
+      </button>
+      <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+        Popover on left
+      </button>
+    </center>
+    </body>
+</html>

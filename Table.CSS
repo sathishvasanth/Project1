@@ -1,0 +1,15 @@
+table{
+    height: 300px;
+    width: 300px;
+}
+
+table, th, td{
+    border: 2px solid;
+}
+body{
+    background-image: url(photo/siddhu.jpg);
+
+    background-repeat: no-repeat;
+background-size:cover;
+height: 90vh;
+    }
